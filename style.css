@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #222;
-    padding: 15px 30px;
+    padding: 10px 20px;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +22,7 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .nav-links a {
@@ -44,12 +44,12 @@ body {
 /* Hero Section Styling */
 .hero {
     position: relative;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px;
     background: url('path/to/your/homepage-first-image.jpg') no-repeat center center/cover;
     color: white;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
@@ -57,7 +57,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -83,7 +83,7 @@ body {
 
 /* Gallery Section Styling */
 .gallery {
-    padding: 40px 20px;
+    padding: 30px 20px;
     background: #fff;
     text-align: center;
 }
@@ -120,7 +120,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 40px;
-    gap: 40px;
+    gap: 30px;
     background-color: #f4f4f4;
 }
 
@@ -161,7 +161,7 @@ footer {
     background-color: #222;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     font-size: 0.875rem;
 }
 
