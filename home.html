@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Nkinsela Events</title>
+    <meta name="description" content="Nkinsela Events offers premium tent rentals and event décor services in Durban. Book us for weddings, parties, and corporate events!">
+    <title>Nkinsela Events - Tent Rentals & Décor Services in Durban</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo-container">
-            <img src="gallery\NK logo.jpg" alt="Nkinsela Events Logo" class="logo">
-            <span class="site-name">Nkinsela Events</span>
-        </div>
-        <ul class="nav-links">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="booking.html">Booking</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="gallery/NK_logo.jpg" alt="Nkinsela Events Logo" class="logo">
+                <span class="site-name">Nkinsela Events</span>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Hero Section with Video Background -->
-    <div class="hero">
-      
+    <!-- Hero Section with Image Background -->
+    <div class="hero" style="background-image: url('gallery/hero-fallback.jpg'); background-size: cover; background-position: center;">
         <div class="hero-overlay">
             <h1>Welcome to Nkinsela Events</h1>
             <p>Your trusted partner for décor and tent rentals in Durban</p>
@@ -37,19 +41,23 @@
     <!-- Gallery Section -->
     <section class="gallery">
         <h2>Our Recent Work</h2>
-        <div class="gallery-grid">
-           
-                <img src="gallery/WhatsApp%20Image%202024-11-15%20at%2019.33.17_d9efa713.jpg" alt="Elegant outdoor tent setup">
+        <div class="gallery-grid" style="display: flex; gap: 20px; overflow-x: auto;">
+            <figure style="flex-shrink: 0;">
+                <img src="gallery/WhatsApp_Image_2024-11-15_at_19.33.17_d9efa713.jpg" alt="Elegant outdoor tent setup">
                 <figcaption>Elegant outdoor tent setup</figcaption>
-            
+            </figure>
+            <figure style="flex-shrink: 0;">
                 <img src="gallery/WhatsApp_Image_2024-11-15_at_19.33.18_9575a375.jpg" alt="Modern tent arrangement">
                 <figcaption>Modern tent arrangement</figcaption>
-            
+            </figure>
+            <figure style="flex-shrink: 0;">
                 <img src="gallery/WhatsApp_Image_2024-11-15_at_19.38.07_cfe5125a.jpg" alt="Luxury event décor">
                 <figcaption>Luxury event décor</figcaption>
-           
+            </figure>
         </div>
-        
+        <div class="gallery-more">
+            <a href="gallery.html" class="btn">View More</a>
+        </div>
     </section>
 
     <!-- Business Info Section -->
