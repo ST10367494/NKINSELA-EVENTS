@@ -15,6 +15,11 @@
                 <img src="gallery/NK_logo.jpg" alt="Nkinsela Events Logo" class="logo">
                 <span class="site-name">Nkinsela Events</span>
             </div>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="home.html" class="active">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
@@ -26,7 +31,10 @@
 
     <!-- Hero Section with Video Background -->
     <div class="hero">
-        
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="gallery/hero-video.mp4" type="video/mp4">
+            <img src="gallery/hero-fallback.jpg" alt="Beautiful event setup" class="hero-fallback">
+        </video>
         <div class="hero-overlay">
             <h1>Welcome to Nkinsela Events</h1>
             <p>Your trusted partner for décor and tent rentals in Durban</p>
@@ -49,9 +57,10 @@
             <figure>
                 <img src="gallery/WhatsApp_Image_2024-11-15_at_19.38.07_cfe5125a.jpg" alt="Luxury event décor">
                 <figcaption>Luxury event décor</figcaption>
-                
             </figure>
-             
+        </div>
+        <div class="gallery-more">
+            <a href="gallery.html" class="btn">View More</a>
         </div>
     </section>
 
@@ -64,12 +73,19 @@
     <!-- Footer -->
     <footer>
         <div class="social-media">
-            <a href="https://facebook.com/NkinselaEvents" target="_blank" aria-label="Visit us on Facebook">Facebook</a> |
-           
+            <a href="https://facebook.com/NkinselaEvents" target="_blank" rel="noopener" aria-label="Visit us on Facebook">Facebook</a> |
+            <a href="https://instagram.com/NkinselaEvents" target="_blank" rel="noopener" aria-label="Visit us on Instagram">Instagram</a>
         </div>
         <p>&copy; 2024 Nkinsela Events. Created by LihleWeb Designs.</p>
     </footer>
 
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
 
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
