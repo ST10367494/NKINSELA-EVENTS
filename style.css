@@ -125,28 +125,6 @@ img {
     background-color: #e6c300;
 }
 
-/* Video Section Styling */
-.video-section {
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #333; /* Black background */
-    color: #fff; /* White text for contrast */
-}
-
-.video-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #fff; /* Gold title for highlight */
-}
-
-.video-section video {
-    width: 80%; /* Responsive size */
-    max-width: 800px; /* Limit video size on large screens */
-    border-radius: 10px; /* Rounded corners */
-    border: 3px solid #fff; /* Gold border for emphasis */
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3); /* Light shadow for pop */
-}
-
 /* Info Section Styling */
 .info-section {
     padding: 30px 20px;
